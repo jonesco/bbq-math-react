@@ -113,6 +113,7 @@ BBQ Math React/
 8. **Micklethwait Craft Meats** - Artisanal sausages
 9. **Lamberts** - Upscale downtown dining
 10. **KG BBQ** - Mediterranean fusion BBQ
+11. **Rudy's 'Country Store' and Bar-B-Q** - Multiple locations, famous cream corn
 
 ## Calculation Rules
 

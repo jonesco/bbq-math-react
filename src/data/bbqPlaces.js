@@ -200,5 +200,30 @@ export const BBQ_PLACES = [
     ],
     specialties: ['Mediterranean fusion BBQ', 'Egyptian spices', 'Unique lamb offerings', 'East Austin location'],
   },
+  {
+    id: 'rudys',
+    name: "Rudy's 'Country Store' and Bar-B-Q",
+    location: 'Multiple locations',
+    rating: 4.3,
+    meats: [
+      { id: 'rudys-brisket', name: 'Moist Brisket', pricePerPound: 21.00, description: 'Juicy, tender, and flavorful moist brisket', category: MeatCategory.BEEF },
+      { id: 'rudys-lean-brisket', name: 'Lean Brisket', pricePerPound: 21.00, description: 'Lean and tender brisket', category: MeatCategory.BEEF },
+      { id: 'rudys-pork-ribs', name: 'Baby Back Ribs', pricePerPound: 26.00, description: 'Tender baby back ribs', category: MeatCategory.PORK },
+      { id: 'rudys-spare-ribs', name: 'Spare Ribs', pricePerPound: 20.00, description: 'Meaty spare ribs', category: MeatCategory.PORK },
+      { id: 'rudys-turkey', name: 'Turkey', pricePerPound: 19.00, description: 'Smoked turkey breast', category: MeatCategory.CHICKEN },
+      { id: 'rudys-sausage', name: 'Regular Sausage', pricePerPound: 19.00, description: 'House-made regular sausage', category: MeatCategory.SAUSAGE },
+      { id: 'rudys-jalapeno-sausage', name: 'Jalapeño Sausage', pricePerPound: 19.00, description: 'Spicy jalapeño sausage', category: MeatCategory.SAUSAGE },
+      { id: 'rudys-jalapeno-cheddar', name: 'Jalapeño Cheddar Sausage', pricePerPound: 20.00, description: 'Spicy jalapeño cheddar sausage', category: MeatCategory.SAUSAGE },
+    ],
+    sides: [
+      { id: 'rudys-cream-corn', name: 'Cream Corn', pricePerServing: 4.50, description: 'Sweet and creamy corn', category: SideCategory.VEGETABLES },
+      { id: 'rudys-potato-salad', name: 'Potato Salad', pricePerServing: 4.50, description: 'Classic potato salad', category: SideCategory.SALADS },
+      { id: 'rudys-coleslaw', name: 'Coleslaw', pricePerServing: 4.50, description: 'Creamy coleslaw', category: SideCategory.SALADS },
+      { id: 'rudys-baked-potato', name: 'Baked Potato', pricePerServing: 4.50, description: 'Loaded baked potato', category: SideCategory.STARCHES },
+      { id: 'rudys-beans', name: 'Rudy Beans', pricePerServing: 4.50, description: 'Seasoned pinto beans', category: SideCategory.VEGETABLES },
+      { id: 'rudys-jalapeno-corn', name: 'Jalapeño Cream Corn', pricePerServing: 4.50, description: 'Spicy cream corn', category: SideCategory.VEGETABLES },
+    ],
+    specialties: ['Original 1989 location in Leon Springs', 'Multiple locations across Texas', 'Famous cream corn', 'Kid-friendly atmosphere', 'Gas station BBQ culture'],
+  },
 ];
 

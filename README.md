@@ -139,6 +139,37 @@ Contributions are welcome! Feel free to:
 - Fix bugs
 - Add features
 
+## Deployment
+
+### GitHub
+
+This app is ready to be pushed to GitHub:
+
+```bash
+# Create a new GitHub repository and push
+git remote add origin https://github.com/YOUR_USERNAME/bbq-math-react.git
+git branch -M main
+git push -u origin main
+```
+
+### Vercel Deployment
+
+The app is optimized for Vercel deployment. Simply:
+
+1. Push your code to GitHub
+2. Visit [vercel.com](https://vercel.com) and sign in
+3. Click "New Project" and import your GitHub repository
+4. Vercel will automatically detect Vite and deploy
+
+Or use the Vercel CLI:
+
+```bash
+npm install -g vercel
+vercel
+```
+
+The app will be live with HTTPS, custom domain support, and automatic deployments on every push!
+
 ## License
 
 MIT License - feel free to use for your own projects!
